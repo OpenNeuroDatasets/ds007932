@@ -1,0 +1,14 @@
+{
+    "Name": "spine_fMRI_7T_1mm_vs_3mm",
+    "BIDSVersion": "1.2.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Alexandre D’Astous",
+        "Caroline Landelle",
+        "Julien Doyon",
+        "Eva Alonso-Ortiz",
+        "Julien Cohen-Adad"
+    ],
+    "License": "CC0",
+    "DatasetDOI": ""
+}
