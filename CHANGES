@@ -4,6 +4,8 @@
     images (all 9 subjects, 33 acquisitions total)
   - Renamed segmentation ground-truth files under derivatives/manual/ to follow
     the BIDS label entity convention (label-SC_seg.nii.gz, label-CSF_seg.nii.gz)
+  - Added vertebral disc labels to derivatives/manual/ (all 9 subjects):
+    anatomical T2*w scan, named <filename>_label-discs_dlabel.nii.gz
 
 1.0.0 2026-06-08
   - Initial upload
