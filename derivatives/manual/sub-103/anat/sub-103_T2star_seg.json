@@ -1,0 +1,18 @@
+{
+  "GeneratedBy": [
+    {
+      "Name": "spinalcordtoolbox: sct_deepseg spinalcord -i sub-103_T2star.nii.gz -o sub-103_T2star_seg.nii.gz -qc  -qc-subject sub-103 -qc-contrast anat -v 0",
+      "Version": "git-fix/qc-contrast-override-78cfbc695ee20159c2f7946e21feddb9ac47bb03",
+      "CodeURL": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/blob/78cfbc695ee20159c2f7946e21feddb9ac47bb03/spinalcordtoolbox/scripts/sct_deepseg.py",
+      "ModelURL": "https://github.com/sct-pipeline/contrast-agnostic-softseg-spinalcord/releases/download/v3.0/model_contrast_agnostic_20250123.zip"
+    },
+    {
+      "Name": "CART Segmentation Task [seg_T2starw]",
+      "CART Version": "fbdb81be9dc81922961d3dc2e13fdcb3d044f06a",
+      "Task Version": 0.04,
+      "Author": "Julien Cohen-Adad",
+      "Position": "Researcher",
+      "Date": "2026-07-15 14:06:00"
+    }
+  ]
+}
