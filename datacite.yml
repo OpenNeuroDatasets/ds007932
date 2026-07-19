@@ -1,0 +1,22 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Julien Cohen-Adad
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_0
+          - nameIdentifier: https://orcid.org/0000-0003-3662-9532
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 1
+    creators:
+      - name: Julien Cohen-Adad
+        nameType: Personal
+        nameIdentifiers: *ref_0
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
