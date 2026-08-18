@@ -1,11 +1,2 @@
-1.1.0 2026-07-19
-  - Added manually-corrected spinal cord segmentations to derivatives/manual/:
-    anatomical T2*w scan (all 9 subjects) and the REST functional task moco_mean
-    images (all 9 subjects, 33 acquisitions total)
-  - Renamed segmentation ground-truth files under derivatives/manual/ to follow
-    the BIDS label entity convention (label-SC_seg.nii.gz, label-CSF_seg.nii.gz)
-  - Added vertebral disc labels to derivatives/manual/ (all 9 subjects):
-    anatomical T2*w scan, named <filename>_label-discs_dlabel.nii.gz
-
 1.0.0 2026-06-08
   - Initial upload
