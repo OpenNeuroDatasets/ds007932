@@ -7,6 +7,12 @@
       "Author": "Alexandre D'Astous",
       "Position": "Student",
       "Date": "2026-07-17 15:25:49"
+    },
+    {
+      "Name": "adjust_manual_segs.py",
+      "Description": "Segmentation moved from the previous moco mean (on which it was drawn) to the moco-dl v2 mean: slicewise rigid registration of the previous mean to the new mean (sct_register_multimodal), warp applied with linear interpolation and binarized at 0.5. See issue #125.",
+      "CodeURL": "https://github.com/shimming-toolbox/spine_7t_fmri_1mm_vs_3mm/blob/b80edf5/code/adjust_manual_segs.py",
+      "Date": "2026-10-05"
     }
   ]
 }
