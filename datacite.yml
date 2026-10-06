@@ -40,6 +40,16 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 4
+      - name: Eva Alonso Ortiz
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_3
+          - nameIdentifier: https://orcid.org/0000-0001-6590-7234
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 5
     creators:
       - name: Alexandre D'Astous
         nameType: Personal
@@ -52,6 +62,9 @@ data:
       - name: Caroline Landelle
         nameType: Personal
         nameIdentifiers: *ref_2
+      - name: Eva Alonso Ortiz
+        nameType: Personal
+        nameIdentifiers: *ref_3
     descriptions:
       - description: N/A
         descriptionType: Abstract
