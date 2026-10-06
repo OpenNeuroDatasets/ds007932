@@ -1,3 +1,5 @@
+1.3.0 2026-10-06
+  - derivatives/manual: added manual spinal cord segmentations for the MOTOR task at 1 mm (task-motor_acq-shimSlice+1mm+sms2, 8 subjects), together with the moco-dl v2 temporal means they are aligned to and provenance sidecars. The segmentations were drawn on the previous moco means and adjusted to the v2 means with the same procedure used in 1.2.0.
 1.2.0 2026-10-06
   - derivatives/manual: added the EPI temporal means (motion-corrected with ivadomed/moco-dl) on which the manual spinal cord/CSF segmentations are drawn, and updated the segmentations to match them; removed segmentations without corresponding raw data; added provenance sidecars and dataset_description.json
 1.1.0 2026-08-18
