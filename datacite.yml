@@ -30,6 +30,16 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 3
+      - name: Caroline Landelle
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_2
+          - nameIdentifier: https://orcid.org/0000-0001-5245-2824
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 4
     creators:
       - name: Alexandre D'Astous
         nameType: Personal
@@ -39,6 +49,9 @@ data:
       - name: Julien Cohen-Adad
         nameType: Personal
         nameIdentifiers: *ref_1
+      - name: Caroline Landelle
+        nameType: Personal
+        nameIdentifiers: *ref_2
     descriptions:
       - description: N/A
         descriptionType: Abstract
