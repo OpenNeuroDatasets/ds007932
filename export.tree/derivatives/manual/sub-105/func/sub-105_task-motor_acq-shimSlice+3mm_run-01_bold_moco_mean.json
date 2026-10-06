@@ -1,0 +1,13 @@
+{
+  "Description": "Temporal mean of the motion-corrected BOLD time series. The manual segmentations sub-105_task-motor_acq-shimSlice+3mm_run-01_bold_moco_mean_label-*_seg.nii.gz are drawn on (or adjusted to) this image.",
+  "Sources": [
+    "bids::sub-105/func/sub-105_task-motor_acq-shimSlice+3mm_run-01_bold.nii.gz"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "spine_7t_fmri_1mm_vs_3mm preprocessing",
+      "Description": "Motion correction with the moco-dl model (ivadomed/moco-dl, branch td/25-inference, checkpoints r20261002) through code/moco_dl_v2.py; no destriping; temporal mean.",
+      "CodeURL": "https://github.com/shimming-toolbox/spine_7t_fmri_1mm_vs_3mm/tree/77204bc"
+    }
+  ]
+}
