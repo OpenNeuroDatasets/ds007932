@@ -13,39 +13,39 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 1
+      - name: Caroline Landelle
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_1
+          - nameIdentifier: https://orcid.org/0000-0001-5245-2824
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 2
+      - name: Eva Alonso Ortiz
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_2
+          - nameIdentifier: https://orcid.org/0000-0001-6590-7234
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 3
       - name: Julien Doyon
         givenName: ''
         familyName: ''
         nameType: Personal
         nameIdentifiers: []
         contributorType: Researcher
-        order: 2
+        order: 4
       - name: Julien Cohen-Adad
         givenName: ''
         familyName: ''
         nameType: Personal
-        nameIdentifiers: &ref_1
-          - nameIdentifier: https://orcid.org/0000-0003-3662-9532
-            nameIdentifierScheme: ORCID
-            schemeUri: https://orcid.org
-        contributorType: Researcher
-        order: 3
-      - name: Caroline Landelle
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: &ref_2
-          - nameIdentifier: https://orcid.org/0000-0001-5245-2824
-            nameIdentifierScheme: ORCID
-            schemeUri: https://orcid.org
-        contributorType: Researcher
-        order: 4
-      - name: Eva Alonso Ortiz
-        givenName: ''
-        familyName: ''
-        nameType: Personal
         nameIdentifiers: &ref_3
-          - nameIdentifier: https://orcid.org/0000-0001-6590-7234
+          - nameIdentifier: https://orcid.org/0000-0003-3662-9532
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
         contributorType: Researcher
@@ -54,15 +54,15 @@ data:
       - name: Alexandre D'Astous
         nameType: Personal
         nameIdentifiers: *ref_0
+      - name: Caroline Landelle
+        nameType: Personal
+        nameIdentifiers: *ref_1
+      - name: Eva Alonso Ortiz
+        nameType: Personal
+        nameIdentifiers: *ref_2
       - name: Julien Doyon
         nameType: Personal
       - name: Julien Cohen-Adad
-        nameType: Personal
-        nameIdentifiers: *ref_1
-      - name: Caroline Landelle
-        nameType: Personal
-        nameIdentifiers: *ref_2
-      - name: Eva Alonso Ortiz
         nameType: Personal
         nameIdentifiers: *ref_3
     descriptions:
