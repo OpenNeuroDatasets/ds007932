@@ -1,0 +1,18 @@
+{
+  "GeneratedBy": [
+    {
+      "Name": "CART Segmentation Task [spine_7t_analysis_1mm_2]",
+      "CART Version": "83aced956d96dbe42f79901c8ae29fe4f65302eb",
+      "Task Version": 0.04,
+      "Author": "Julien Cohen-Adad",
+      "Position": "Researcher",
+      "Date": "2026-07-18 16:17:59"
+    },
+    {
+      "Name": "adjust_manual_segs.py",
+      "Description": "Segmentation moved from the previous moco mean (on which it was drawn) to the moco-dl v2 mean: slicewise rigid registration of the previous mean to the new mean (sct_register_multimodal), warp applied with linear interpolation and binarized at 0.5. See issue #125.",
+      "CodeURL": "https://github.com/shimming-toolbox/spine_7t_fmri_1mm_vs_3mm/blob/b80edf5/code/adjust_manual_segs.py",
+      "Date": "2026-10-05"
+    }
+  ]
+}

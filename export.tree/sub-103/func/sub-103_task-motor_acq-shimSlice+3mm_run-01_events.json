@@ -1,0 +1,11 @@
+{
+    "onset": {
+        "Description": "Onset of the event in seconds relative to the first volume of the scan."
+    },
+    "duration": {
+        "Description": "Duration of the event in seconds."
+    },
+    "trial_type": {
+        "Description": "Name of the experimental condition."
+    }
+}
